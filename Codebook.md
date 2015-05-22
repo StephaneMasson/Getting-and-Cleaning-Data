@@ -30,6 +30,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 | Variable | Description
 -----------|-------------
 | subject | Subject ID
+| activity | The activity performed
 | tbodyacc.mean.x | Mean time for acceleration of body for X direction
 | tbodyacc.mean.y | Mean time for acceleration of body for Y direction
 | tbodyacc.mean.z | Mean time for acceleration of body for Z direction
@@ -96,7 +97,6 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 | fbodybodygyromag.std | Standard deviation of frequency of magnitude of body gyroscope measurement
 | fbodybodygyrojerkmag.mean | Mean frequency of magnitude of body gyroscope jerk measurement
 | fbodybodygyrojerkmag.std | Standard deviation frequency of magnitude of body gyroscope jerk measurement
-| activity | The activity performed
 
 ### Variable Descriptions - Tiny Dataset
 
