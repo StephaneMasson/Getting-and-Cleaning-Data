@@ -57,7 +57,7 @@ activity[, 2] <- gsub("_", "", activity[, 2])
 mergedactiviy = merge(y,activity, by.x = "V1", by.y ="V1", all = TRUE)
 y[, 1] = mergedactiviy[,2]
 colnames(y) <- 'activity'
-colnames(subj) <- 'subject'
+colnames(subject) <- 'subject'
 
 # Match labels and descriptive activity names.
 dataset <- cbind(subject, y, x.mean.stddev)
