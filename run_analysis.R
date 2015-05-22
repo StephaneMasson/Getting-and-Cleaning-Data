@@ -50,7 +50,7 @@ names(x.mean.stddev) <- tolower(names(x.mean.stddev))
 names(x.mean.stddev) <- gsub("\\(|\\)", "", names(x.mean.stddev))
 
 # Identify and transform Activity labels
-activity[, 2] <- tolower(as.character(activities[, 2]))
+activity[, 2] <- tolower(as.character(activity[, 2]))
 activity[, 2] <- gsub("_", "", activity[, 2])
 
 #Rename Columns
