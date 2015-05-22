@@ -77,5 +77,3 @@ str(ProjectDataSet2)
 
 #Write Dataset in txt file
 write.table(ProjectDataSet2, './ProjectData/ProjectDataSet2.txt', row.name = FALSE)
-
-ProjectDataSet2 <- dataset[, lapply(.SD,mean), by=(subject,activity)]
